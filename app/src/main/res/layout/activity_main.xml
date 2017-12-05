@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:padding="0dp"
+    tools:context="com.example.linfa.lostfound.MainActivity">
+    <Button
+        android:id="@+id/button_release"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="消息发布"
+        android:background="#11111111"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="失物招领"
+        android:background="#11111111"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="消息管理"
+        android:background="#11111111"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="个人信息"
+        android:background="#11111111"
+        android:textColor="#ffffffff"
+        android:textSize="20sp"/>
+
+</LinearLayout>
